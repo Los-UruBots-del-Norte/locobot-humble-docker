@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  locobot:
+    build: .
+    ports:
+      - 6080:80
+      - 5900:5900
+    # volumes:
+      # - ./code:/home/ubuntu/ros_ws
+    # SHARE USB PORT
+    devices:
+      - /dev/bus/usb:/dev/bus/usb    
