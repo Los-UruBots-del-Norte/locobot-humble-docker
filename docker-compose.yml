@@ -8,5 +8,5 @@ services:
     # volumes:
       # - ./code:/home/ubuntu/ros_ws
     # SHARE USB PORT
-    devices:
-      - /dev/bus/usb:/dev/bus/usb    
+    # devices:
+    #   - /dev/bus/usb:/dev/bus/usb
