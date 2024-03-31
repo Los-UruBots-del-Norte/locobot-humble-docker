@@ -4,6 +4,11 @@
 ```
 docker-compose up
 ```
+## Gazebo models
+Run this command before run simulation
+```
+source /usr/share/gazebo/setup.bash
+```
 
 ## Run Locobot
 ```
